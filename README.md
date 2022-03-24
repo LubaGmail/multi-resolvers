@@ -3,19 +3,26 @@ insert docs
 
 Sandbox
     query anyName {
-        books {
-            _id
-            name
-            price
-        }
         club {
-            id
             name
             age
         }
-}
+        books {
+            name
+            price
+        }
+        quote {
+            quote
+            author
+        }
+    }
    
-
+quote returns object
+    return {
+        quote: 'To be, or not to be, that is the question',
+        author: 'William Shakespeare'
+    }
+            
 
 
 
